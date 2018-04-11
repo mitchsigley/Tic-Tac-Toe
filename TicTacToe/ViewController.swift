@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     }
     
     //Two Player
-    @IBAction func Game2(_ sender: AnyObject)
+    @IBAction func action(_ sender: AnyObject)
     {
         if  (gameState[sender.tag-1] == 0 && gameIsActive == true)
         {
@@ -120,23 +120,23 @@ class ViewController: UIViewController {
     }
     
     //Single Player
-    @IBAction func action(_ sender: AnyObject)
+    @IBAction func action2(_ sender: AnyObject)
     {
-        if  (gameState[sender.tag-1] == 0 && gameIsActive == true)
-        {
-            gameState[sender.tag-1] = activePlayer
-            
-            if  (activePlayer == 1)
-            {
-                sender.setImage(UIImage(named: "x"),for: UIControlState())
-                activePlayer = 2
-            }
-            else
-            {
-                sender.setImage(UIImage(named: "o"),for: UIControlState())
-                activePlayer = 1
-            }
-        }
+//        if  (gameState[sender.tag-1] == 0 && gameIsActive == true)
+//        {
+//            gameState[sender.tag-1] = activePlayer
+//
+//            if  (activePlayer == 1)
+//            {
+//                sender.setImage(UIImage(named: "x"),for: UIControlState())
+//                activePlayer = 2
+//            }
+//            else
+//            {
+//                sender.setImage(UIImage(named: "o"),for: UIControlState())
+//                activePlayer = 1
+//            }
+//        }
         
         for combination in winningCombinations
         {
