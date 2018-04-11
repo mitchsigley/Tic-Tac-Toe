@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30803EC1207B44B4006924AE /* Menu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 30803EC0207B432B006924AE /* Menu.m4a */; };
 		30B088C1204FA31E0003A312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B088C0204FA31E0003A312 /* AppDelegate.swift */; };
 		30B088C3204FA31E0003A312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B088C2204FA31E0003A312 /* ViewController.swift */; };
 		30B088C6204FA31E0003A312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B088C4204FA31E0003A312 /* Main.storyboard */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30803EBF207B432B006924AE /* Gameplay #1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gameplay #1.m4a"; sourceTree = "<group>"; };
+		30803EC0207B432B006924AE /* Menu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Menu.m4a; sourceTree = "<group>"; };
 		30B088BD204FA31E0003A312 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B088C0204FA31E0003A312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B088C2204FA31E0003A312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +110,8 @@
 		30B088BF204FA31E0003A312 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				30803EBF207B432B006924AE /* Gameplay #1.m4a */,
+				30803EC0207B432B006924AE /* Menu.m4a */,
 				30B088F1204FA7B10003A312 /* x.png */,
 				30B088C0204FA31E0003A312 /* AppDelegate.swift */,
 				30B088C2204FA31E0003A312 /* ViewController.swift */,
@@ -203,7 +208,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Mitch Sigley";
 				TargetAttributes = {
 					30B088BC204FA31E0003A312 = {
@@ -247,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30803EC1207B44B4006924AE /* Menu.m4a in Resources */,
 				30B088F2204FA7B10003A312 /* x.png in Resources */,
 				30B088F5204FAAC70003A312 /* grid.png in Resources */,
 				30B088F8204FADDE0003A312 /* background.png in Resources */,
@@ -349,6 +355,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -356,6 +363,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -406,6 +414,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -413,6 +422,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
